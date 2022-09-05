@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4b5e58-04d7-4090-a20a-796882cf87ff" name="Changes" comment="" />
+    <list default="true" id="ad4b5e58-04d7-4090-a20a-796882cf87ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/game/NotRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/game/GamePlayersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ELH1tBBMvYgGuCoWrChryiplBU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -23,9 +40,106 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Tournament/src/test/java"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GamePlayersTest.shouldNotFindPlayerByName">
+    <configuration name="GamePlayersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.game" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.game.GamePlayersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlayersTest.shouldBeEqualInStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.game" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.game.GamePlayersTest" />
+      <option name="METHOD_NAME" value="shouldBeEqualInStrength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlayersTest.shouldFindAllRegisteredPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.game" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.game.GamePlayersTest" />
+      <option name="METHOD_NAME" value="shouldFindAllRegisteredPlayers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlayersTest.shouldFindPlayerByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.game" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.game.GamePlayersTest" />
+      <option name="METHOD_NAME" value="shouldFindPlayerByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlayersTest.shouldNotFindPlayerByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tournament" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.game" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.game.GamePlayersTest" />
+      <option name="METHOD_NAME" value="shouldNotFindPlayerByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GamePlayersTest.shouldNotFindPlayerByName" />
+        <item itemvalue="JUnit.GamePlayersTest" />
+        <item itemvalue="JUnit.GamePlayersTest.shouldFindPlayerByName" />
+        <item itemvalue="JUnit.GamePlayersTest.shouldBeEqualInStrength" />
+        <item itemvalue="JUnit.GamePlayersTest.shouldFindAllRegisteredPlayers" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
